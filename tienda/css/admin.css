@@ -1,0 +1,64 @@
+/* Panel de productos: herramienta de trabajo, sobria y fácil de escanear. */
+.admin { background: var(--papel); }
+.admin__barra { position: sticky; top: 0; z-index: 10; background: var(--blanco); border-bottom: 1px solid var(--linea); }
+.admin__barra-fila { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 24px; padding-block: 12px; }
+.admin__estado { flex: 1 1 220px; color: var(--grafito); font-size: .9rem; }
+.admin__botones { display: flex; flex-wrap: wrap; gap: 8px; }
+.admin__main { display: grid; gap: 24px; padding-block: 32px 80px; }
+.admin__main > section { background: var(--blanco); border-radius: var(--radio); padding: clamp(20px, 3vw, 32px); }
+.admin h1, .admin h2 { font-size: 1.4rem; letter-spacing: -.02em; }
+.admin h2 span { color: var(--grafito); font-weight: 600; }
+
+.pasos ol { margin: 16px 0 0; padding-left: 1.4em; display: grid; gap: 10px; max-width: 75ch; }
+.pasos li::marker { font-weight: 700; color: var(--azul); }
+.pasos__nota { margin-top: 14px; color: var(--grafito); font-size: .9rem; }
+
+.admin__cabeza { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 16px; }
+.admin__herramientas { display: flex; flex-wrap: wrap; gap: 8px; }
+.admin__buscar, .formulario input:not([type=checkbox]):not([type=color]), .formulario select, .formulario textarea, .precio-campo input {
+  font: inherit; color: var(--tinta); background: var(--blanco); border: 1.5px solid var(--linea); border-radius: 10px; min-height: 44px; padding: 8px 12px; width: 100%;
+}
+.admin__buscar { width: 220px; }
+.admin input:focus, .admin select:focus, .admin textarea:focus { outline: none; border-color: var(--azul); box-shadow: 0 0 0 3px rgba(10, 92, 255, .2); }
+
+.tabla-envoltura { overflow-x: auto; }
+.tabla { width: 100%; border-collapse: collapse; min-width: 640px; }
+.tabla th, .tabla td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--linea); vertical-align: middle; }
+.tabla thead th { font-size: .85rem; color: var(--grafito); font-weight: 600; }
+.tabla tbody th { font-weight: 600; }
+.celda-prod { display: flex; align-items: center; gap: 12px; }
+.celda-prod img { width: 44px; height: 44px; border-radius: 10px; object-fit: cover; background: var(--papel); }
+.celda-prod small, .formateado { display: block; color: var(--grafito); font-weight: 400; font-size: .8rem; }
+.precio-campo { display: flex; align-items: center; gap: 6px; max-width: 160px; }
+.precio-campo input { font-variant-numeric: tabular-nums; }
+.acciones-celda { text-align: right; }
+
+.interruptor { position: relative; display: inline-block; width: 48px; height: 28px; cursor: pointer; }
+.interruptor input { position: absolute; inset: 0; opacity: 0; margin: 0; cursor: pointer; }
+.interruptor span[aria-hidden] { position: absolute; inset: 0; border-radius: 999px; background: #c9c8c3; transition: background-color .2s; }
+.interruptor span[aria-hidden]::after { content: ""; position: absolute; top: 3px; left: 3px; width: 22px; height: 22px; border-radius: 50%; background: #fff; transition: transform .2s var(--salida); box-shadow: 0 1px 3px rgba(0,0,0,.25); }
+.interruptor input:checked + .sr + span[aria-hidden] { background: #1f9d55; }
+.interruptor input:checked + .sr + span[aria-hidden]::after { transform: translateX(20px); }
+.interruptor input:focus-visible + .sr + span[aria-hidden] { outline: 3px solid var(--azul); outline-offset: 2px; }
+
+.campos { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.campos label, .fila-var label { display: grid; gap: 6px; font-weight: 600; font-size: .9rem; }
+.campos small { font-weight: 400; color: var(--grafito); }
+.campos .ancho { grid-column: 1 / -1; }
+.formulario fieldset { border: 0; padding: 0; margin: 24px 0 0; }
+.formulario legend { font-weight: 700; margin-bottom: 10px; }
+.marcas { display: flex; flex-wrap: wrap; gap: 4px 24px; }
+.fila-var { display: grid; grid-template-columns: 1.2fr 1fr 1fr auto; gap: 10px; align-items: end; padding: 10px 0; border-bottom: 1px dashed var(--linea); }
+.fila-var input[type=color] { width: 100%; height: 44px; border: 1.5px solid var(--linea); border-radius: 10px; padding: 3px; background: var(--blanco); }
+.formulario__error { color: var(--oferta); font-weight: 600; margin-top: 16px; }
+.formulario__error:empty { display: none; }
+.formulario__acciones { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; margin-top: 20px; }
+.peligro { color: var(--oferta); }
+.peligro:hover { color: #8f0f20; }
+.zona__botones { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+@media (max-width: 680px) {
+  .campos { grid-template-columns: 1fr; }
+  .fila-var { grid-template-columns: 1fr 1fr; }
+  .admin__buscar { width: 100%; }
+}
+.admin__aviso { height: auto; min-height: var(--franja); white-space: normal; padding-block: 6px; }

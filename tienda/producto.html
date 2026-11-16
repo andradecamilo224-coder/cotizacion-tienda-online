@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="es-CO">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Producto</title>
+  <meta name="description" content="Elige color y capacidad, agrégalo al carrito o cómpralo por WhatsApp.">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%229%22 fill=%22%230a5cff%22/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+  <main id="contenido" class="contenedor" data-ficha>
+    <p style="padding:64px 0;color:var(--grafito)">Cargando producto…</p>
+  </main>
+  <section class="seccion seccion--papel" aria-labelledby="rel-titulo" data-relacionados hidden>
+    <div class="contenedor">
+      <div class="seccion__cabeza"><h2 class="seccion__titulo" id="rel-titulo" style="font-size:clamp(1.8rem,3.5vw,2.6rem)">También te puede interesar</h2></div>
+      <div class="rejilla rejilla--carril" data-lista-rel></div>
+    </div>
+  </section>
+
+  <script src="productos.js"></script>
+  <script src="js/tienda.js"></script>
+  <script src="js/producto.js"></script>
+</body>
+</html>

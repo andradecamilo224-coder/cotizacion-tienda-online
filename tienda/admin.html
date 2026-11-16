@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="es-CO">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Panel de productos</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%229%22 fill=%22%230a5cff%22/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/admin.css">
+</head>
+<body class="admin">
+  <header class="admin__barra">
+    <p class="franja-previa admin__aviso" role="note">Panel de demostración: los cambios solo se guardan en este navegador</p>
+    <div class="contenedor admin__barra-fila">
+      <p class="logo"><span class="logo__marca" aria-hidden="true"></span>Panel de productos</p>
+      <div class="admin__estado" aria-live="polite" data-estado>Cargando…</div>
+      <div class="admin__botones">
+        <a class="btn btn--secundario" href="index.html?borrador=1" target="_blank" rel="noopener">Ver tienda con el borrador</a>
+        <button class="btn btn--primario" type="button" data-descargar-json>Descargar productos.json</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="contenedor admin__main">
+    <section class="pasos" aria-labelledby="pasos-titulo">
+      <h1 id="pasos-titulo">Cómo actualizar la tienda</h1>
+      <ol>
+        <li><strong>Edita aquí.</strong> Cambia precios, disponibilidad o datos, o agrega y borra productos. Todo se guarda solo como borrador en este navegador.</li>
+        <li><strong>Revisa.</strong> Abre "Ver tienda con el borrador" para ver los cambios antes de publicarlos.</li>
+        <li><strong>Descarga.</strong> Pulsa "Descargar productos.json" (y "Descargar productos.js" para el respaldo) y reemplaza esos archivos en la carpeta <code>sitio/</code>.</li>
+        <li><strong>Publica.</strong> Entra a Netlify y arrastra la carpeta <code>sitio/</code> completa a la sección de deploys. En un minuto la tienda muestra los cambios.</li>
+      </ol>
+      <p class="pasos__nota">Las fotos nuevas van en <code>sitio/img/</code>; en el campo Foto escribe <code>img/nombre-del-archivo.jpg</code>.</p>
+    </section>
+
+    <section aria-labelledby="lista-titulo">
+      <div class="admin__cabeza">
+        <h2 id="lista-titulo">Productos <span data-total></span></h2>
+        <div class="admin__herramientas">
+          <label class="sr" for="buscar-admin">Buscar producto</label>
+          <input class="admin__buscar" id="buscar-admin" type="search" placeholder="Buscar por nombre">
+          <button class="btn btn--secundario" type="button" data-agregar-producto>Agregar producto</button>
+        </div>
+      </div>
+      <div class="tabla-envoltura">
+        <table class="tabla">
+          <thead>
+            <tr>
+              <th scope="col">Producto</th>
+              <th scope="col">Categoría</th>
+              <th scope="col">Precio (desde)</th>
+              <th scope="col">Disponible</th>
+              <th scope="col"><span class="sr">Acciones</span></th>
+            </tr>
+          </thead>
+          <tbody data-filas></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="editor" aria-labelledby="editor-titulo" data-editor hidden>
+      <div class="admin__cabeza">
+        <h2 id="editor-titulo" tabindex="-1">Editar producto</h2>
+        <button class="btn btn--texto" type="button" data-cerrar-editor>Cerrar editor</button>
+      </div>
+      <form class="formulario" data-form novalidate>
+        <div class="campos">
+          <label>Nombre<input name="nombre" required></label>
+          <label>ID (para el enlace)<input name="slug" required pattern="[a-z0-9-]+" aria-describedby="ayuda-id"><small id="ayuda-id">Solo minúsculas, números y guiones. Ej.: iphone-17-pro</small></label>
+          <label>Categoría
+            <select name="categoria">
+              <option value="iphone">iPhone</option>
+              <option value="playstation">PlayStation</option>
+              <option value="accesorios">Accesorios</option>
+              <option value="smartwatch">Smartwatch</option>
+            </select>
+          </label>
+          <label>Foto principal<input name="img" placeholder="img/archivo.jpg"></label>
+          <label class="ancho">Frase corta<input name="subtitulo"></label>
+          <label class="ancho">Descripción<textarea name="descripcion" rows="3"></textarea></label>
+          <label>Precio (si no tiene capacidades)<input name="precio" inputmode="numeric" aria-describedby="ayuda-precio"><small id="ayuda-precio">Solo números, sin puntos. Ej.: 349000</small></label>
+          <label>Precio antes (opcional)<input name="precioAntes" inputmode="numeric"></label>
+          <label class="ancho">Características (una por línea)<textarea name="specs" rows="4"></textarea></label>
+        </div>
+
+        <fieldset class="marcas">
+          <legend>Etiquetas</legend>
+          <label class="opcion"><input type="checkbox" name="disponible"> Disponible</label>
+          <label class="opcion"><input type="checkbox" name="nuevo"> Nuevo</label>
+          <label class="opcion"><input type="checkbox" name="masVendido"> Más vendido</label>
+          <label class="opcion"><input type="checkbox" name="oferta"> Oferta</label>
+          <label class="opcion"><input type="checkbox" name="enInicio"> Mostrar en el inicio (máx. 3 por sección; 4 en iPhone)</label>
+        </fieldset>
+
+        <fieldset class="variantes">
+          <legend>Capacidades o tamaños (cada una con su precio)</legend>
+          <div data-caps></div>
+          <button class="btn btn--texto" type="button" data-mas-cap>Agregar capacidad</button>
+        </fieldset>
+
+        <fieldset class="variantes">
+          <legend>Colores (la foto es opcional; sin foto se tiñe la principal)</legend>
+          <div data-colores></div>
+          <button class="btn btn--texto" type="button" data-mas-color>Agregar color</button>
+        </fieldset>
+
+        <p class="formulario__error" role="alert" data-error></p>
+        <div class="formulario__acciones">
+          <button class="btn btn--primario" type="submit">Guardar cambios</button>
+          <button class="btn btn--texto peligro" type="button" data-borrar>Borrar producto</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="zona" aria-labelledby="zona-titulo">
+      <h2 id="zona-titulo">Archivos</h2>
+      <div class="zona__botones">
+        <button class="btn btn--primario" type="button" data-descargar-json>Descargar productos.json</button>
+        <button class="btn btn--secundario" type="button" data-descargar-js>Descargar productos.js (respaldo)</button>
+        <button class="btn btn--texto peligro" type="button" data-descartar>Descartar borrador y volver al archivo</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor pie__legal">
+      <p>Este panel no envía datos a ningún servidor: edita el almacenamiento local (localStorage) de este navegador y descarga los archivos en tu equipo.</p>
+      <p><a href="legal/terminos.html">Términos y condiciones</a> · <a href="legal/privacidad.html">Política de datos personales</a> · <a href="legal/garantias-y-retracto.html">Garantías y retracto</a></p>
+      <p><strong>Precios con IVA incluido · Precios de referencia</strong></p>
+    </div>
+  </footer>
+
+  <script src="productos.js"></script>
+  <script src="js/tienda.js"></script>
+  <script src="js/admin.js"></script>
+</body>
+</html>

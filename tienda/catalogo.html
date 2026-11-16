@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es-CO">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Catálogo: buscar iPhone, PlayStation y accesorios</title>
+  <meta name="description" content="Busca y filtra por categoría, precio y disponibilidad.">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%229%22 fill=%22%230a5cff%22/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+  <main id="contenido" class="contenedor">
+    <div class="pagina-cabeza">
+      <h1 class="pagina-titulo">Catálogo</h1>
+    </div>
+
+    <div class="catalogo">
+      <form class="filtros" id="filtros" role="search" aria-label="Filtros del catálogo" onsubmit="return false">
+        <div>
+          <label class="campo__etiqueta" for="q" style="display:block">Buscar</label>
+          <div class="buscador">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4 4"/></svg>
+            <input id="q" name="q" type="search" placeholder="Ej.: iPhone 17, DualSense, cargador" autocomplete="off">
+          </div>
+        </div>
+
+        <fieldset>
+          <legend>Categoría</legend>
+          <label class="opcion"><input type="radio" name="cat" value="" checked> Todas</label>
+          <label class="opcion"><input type="radio" name="cat" value="iphone"> iPhone</label>
+          <label class="opcion"><input type="radio" name="cat" value="playstation"> PlayStation</label>
+          <label class="opcion"><input type="radio" name="cat" value="accesorios"> Accesorios</label>
+          <label class="opcion"><input type="radio" name="cat" value="smartwatch"> Smartwatch</label>
+        </fieldset>
+
+        <div class="rango">
+          <label class="campo__etiqueta" for="max">Precio máximo</label>
+          <input id="max" name="max" type="range" min="0" max="9000000" step="100000" value="9000000" aria-describedby="max-valor">
+          <output id="max-valor" for="max">Sin límite</output>
+        </div>
+
+        <fieldset>
+          <legend>Disponibilidad</legend>
+          <label class="opcion"><input type="checkbox" name="disp"> Solo disponibles</label>
+          <label class="opcion"><input type="checkbox" name="oferta"> Solo ofertas</label>
+        </fieldset>
+
+        <button class="btn btn--secundario" type="button" data-limpiar>Limpiar filtros</button>
+      </form>
+
+      <section aria-labelledby="res-titulo">
+        <h2 class="sr" id="res-titulo">Resultados</h2>
+        <div class="resultados__barra">
+          <p class="resultados__conteo" aria-live="polite" data-conteo></p>
+          <div style="display:flex;gap:10px;flex-wrap:wrap">
+            <button class="btn btn--secundario btn-filtros" type="button" aria-expanded="false" aria-controls="filtros">Filtros</button>
+            <label class="sr" for="orden">Ordenar por</label>
+            <select class="selecta" id="orden">
+              <option value="relevancia">Destacados primero</option>
+              <option value="menor">Precio: menor a mayor</option>
+              <option value="mayor">Precio: mayor a menor</option>
+              <option value="nombre">Nombre A-Z</option>
+            </select>
+          </div>
+        </div>
+        <div class="rejilla" data-resultados></div>
+      </section>
+    </div>
+  </main>
+
+  <script src="productos.js"></script>
+  <script src="js/tienda.js"></script>
+  <script src="js/catalogo.js"></script>
+</body>
+</html>

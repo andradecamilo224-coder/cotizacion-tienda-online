@@ -1,0 +1,904 @@
+[
+  {
+    "id": "iphone-17-pro-max",
+    "nombre": "iPhone 17 Pro Max",
+    "categoria": "iphone",
+    "subtitulo": "La pantalla más grande y la batería que más dura.",
+    "descripcion": "Pantalla de 6,9 pulgadas, sistema de tres cámaras con zoom óptico y la batería de mayor duración de la línea. Chasis de aluminio y vidrio resistente.",
+    "img": "img/iphone-pro-titanio.jpg",
+    "colores": [
+      {
+        "nombre": "Plata",
+        "hex": "#d9d9d6",
+        "img": "img/iphone-pro-titanio.jpg"
+      },
+      {
+        "nombre": "Azul profundo",
+        "hex": "#2f3d55"
+      },
+      {
+        "nombre": "Naranja cósmico",
+        "hex": "#d9773b"
+      }
+    ],
+    "capacidades": [
+      {
+        "nombre": "256 GB",
+        "precio": 6499000
+      },
+      {
+        "nombre": "512 GB",
+        "precio": 7499000
+      },
+      {
+        "nombre": "1 TB",
+        "precio": 8499000
+      }
+    ],
+    "precio": 6499000,
+    "precioAntes": null,
+    "disponible": true,
+    "nuevo": true,
+    "masVendido": false,
+    "oferta": false,
+    "enInicio": true,
+    "precioEjemplo": true,
+    "specs": [
+      "Pantalla de 6,9\"",
+      "Triple cámara de 48 MP",
+      "USB-C",
+      "Hasta 1 TB"
+    ]
+  },
+  {
+    "id": "iphone-17-pro",
+    "nombre": "iPhone 17 Pro",
+    "categoria": "iphone",
+    "subtitulo": "Potencia de Pro en un tamaño cómodo.",
+    "descripcion": "Pantalla de 6,3 pulgadas, chip de última generación y tres cámaras de 48 MP. Ideal para foto y video profesional desde el bolsillo.",
+    "img": "img/iphone-17-pro-mano.jpg",
+    "colores": [
+      {
+        "nombre": "Plata",
+        "hex": "#d9d9d6",
+        "img": "img/iphone-17-pro-mano.jpg"
+      },
+      {
+        "nombre": "Azul profundo",
+        "hex": "#2f3d55"
+      },
+      {
+        "nombre": "Naranja cósmico",
+        "hex": "#d9773b"
+      }
+    ],
+    "capacidades": [
+      {
+        "nombre": "256 GB",
+        "precio": 5799000
+      },
+      {
+        "nombre": "512 GB",
+        "precio": 6799000
+      },
+      {
+        "nombre": "1 TB",
+        "precio": 7799000
+      }
+    ],
+    "precio": 5799000,
+    "precioAntes": null,
+    "disponible": true,
+    "nuevo": true,
+    "masVendido": true,
+    "oferta": false,
+    "enInicio": true,
+    "precioEjemplo": true,
+    "specs": [
+      "Pantalla de 6,3\"",
+      "Triple cámara de 48 MP",
+      "USB-C",
+      "Hasta 1 TB"
+    ]
+  },
+  {
+    "id": "iphone-air",
+    "nombre": "iPhone Air",
+    "categoria": "iphone",
+    "subtitulo": "El iPhone más delgado hasta hoy.",
+    "descripcion": "Un diseño ultradelgado y liviano con pantalla de 6,5 pulgadas. Para quien quiere lo último sin peso en el bolsillo.",
+    "img": "img/iphone-negro.jpg",
+    "colores": [
+      {
+        "nombre": "Negro espacial",
+        "hex": "#2b2b2e",
+        "img": "img/iphone-negro.jpg"
+      },
+      {
+        "nombre": "Azul cielo",
+        "hex": "#b9cfe4"
+      },
+      {
+        "nombre": "Dorado claro",
+        "hex": "#e8dcc2"
+      },
+      {
+        "nombre": "Blanco nube",
+        "hex": "#f1f1ee"
+      }
+    ],
+    "capacidades": [
+      {
+        "nombre": "256 GB",
+        "precio": 5299000
+      },
+      {
+        "nombre": "512 GB",
+        "precio": 6299000
+      }
+    ],
+    "precio": 5299000,
+    "precioAntes": null,
+    "disponible": true,
+    "nuevo": true,
+    "masVendido": false,
+    "oferta": false,
+    "enInicio": true,
+    "precioEjemplo": true,
+    "specs": [
+      "Pantalla de 6,5\"",
+      "Cámara de 48 MP",
+      "5,6 mm de grosor",
+      "eSIM"
+    ]
+  },
+  {
+    "id": "iphone-17",
+    "nombre": "iPhone 17",
+    "categoria": "iphone",
+    "subtitulo": "Todo lo esencial, ahora con más pantalla.",
+    "descripcion": "Pantalla de 6,3 pulgadas con tasa de refresco alta, cámara dual de 48 MP y batería para todo el día.",
+    "img": "img/iphone-17-mesa.jpg",
+    "colores": [
+      {
+        "nombre": "Azul niebla",
+        "hex": "#8fb3cf",
+        "img": "img/iphone-17-mesa.jpg"
+      },
+      {
+        "nombre": "Negro",
+        "hex": "#232325"
+      },
+      {
+        "nombre": "Lavanda",
+        "hex": "#c9bfe0"
+      },
+      {
+        "nombre": "Salvia",
+        "hex": "#b7c4a8"
+      }
+    ],
+    "capacidades": [
+      {
+        "nombre": "256 GB",
+        "precio": 4299000,
+        "precioAntes": 4599000
+      },
+      {
+        "nombre": "512 GB",
+        "precio": 5299000,
+        "precioAntes": 5599000
+      }
+    ],
+    "precio": 4299000,
+    "precioAntes": 4599000,
+    "disponible": true,
+    "nuevo": false,
+    "masVendido": true,
+    "oferta": true,
+    "enInicio": true,
+    "precioEjemplo": true,
+    "specs": [
+      "Pantalla de 6,3\"",
+      "Cámara dual de 48 MP",
+      "USB-C",
+      "Hasta 512 GB"
+    ]
+  },
+  {
+    "id": "iphone-16",
+    "nombre": "iPhone 16",
+    "categoria": "iphone",
+    "subtitulo": "Un clásico reciente a mejor precio.",
+    "descripcion": "Pantalla de 6,1 pulgadas, botón de cámara y cámara dual. Una gran opción para cambiar de equipo sin pagar de más.",
+    "img": "img/iphone-azul.jpg",
+    "colores": [
+      {
+        "nombre": "Ultramar",
+        "hex": "#4a6fb5",
+        "img": "img/iphone-azul.jpg"
+      },
+      {
+        "nombre": "Negro",
+        "hex": "#232325"
+      },
+      {
+        "nombre": "Blanco",
+        "hex": "#f1f1ee"
+      },
+      {
+        "nombre": "Rosado",
+        "hex": "#f0c6cf"
+      }
+    ],
+    "capacidades": [
+      {
+        "nombre": "128 GB",
+        "precio": 3599000,
+        "precioAntes": 3899000
+      },
+      {
+        "nombre": "256 GB",
+        "precio": 4199000,
+        "precioAntes": 4499000
+      }
+    ],
+    "precio": 3599000,
+    "precioAntes": 3899000,
+    "disponible": true,
+    "nuevo": false,
+    "masVendido": true,
+    "oferta": true,
+    "enInicio": false,
+    "precioEjemplo": true,
+    "specs": [
+      "Pantalla de 6,1\"",
+      "Cámara dual de 48 MP",
+      "Botón de cámara",
+      "Hasta 256 GB"
+    ]
+  },
+  {
+    "id": "iphone-16e",
+    "nombre": "iPhone 16e",
+    "categoria": "iphone",
+    "subtitulo": "La puerta de entrada a iPhone.",
+    "descripcion": "El iPhone más accesible de la línea, con pantalla de 6,1 pulgadas, cámara de 48 MP y gran batería.",
+    "img": "img/iphone-blanco.jpg",
+    "colores": [
+      {
+        "nombre": "Blanco",
+        "hex": "#f1f1ee",
+        "img": "img/iphone-blanco.jpg"
+      },
+      {
+        "nombre": "Negro",
+        "hex": "#232325"
+      }
+    ],
+    "capacidades": [
+      {
+        "nombre": "128 GB",
+        "precio": 2899000
+      },
+      {
+        "nombre": "256 GB",
+        "precio": 3399000
+      }
+    ],
+    "precio": 2899000,
+    "precioAntes": null,
+    "disponible": false,
+    "nuevo": false,
+    "masVendido": false,
+    "oferta": false,
+    "enInicio": false,
+    "precioEjemplo": true,
+    "specs": [
+      "Pantalla de 6,1\"",
+      "Cámara de 48 MP",
+      "Face ID",
+      "Hasta 256 GB"
+    ]
+  },
+  {
+    "id": "ps5-slim",
+    "nombre": "PlayStation 5 Slim",
+    "categoria": "playstation",
+    "subtitulo": "Con lector de discos. Más pequeña, igual de potente.",
+    "descripcion": "Consola PS5 Slim con lector de discos Ultra HD Blu-ray, 1 TB de almacenamiento y un control DualSense incluido.",
+    "img": "img/ps5-consola.jpg",
+    "colores": [
+      {
+        "nombre": "Blanco",
+        "hex": "#f2f2f0",
+        "img": "img/ps5-consola.jpg"
+      }
+    ],
+    "capacidades": [
+      {
+        "nombre": "1 TB",
+        "precio": 2899000,
+        "precioAntes": 3199000
+      }
+    ],
+    "precio": 2899000,
+    "precioAntes": 3199000,
+    "disponible": true,
+    "nuevo": false,
+    "masVendido": true,
+    "oferta": true,
+    "enInicio": true,
+    "precioEjemplo": true,
+    "specs": [
+      "1 TB SSD",
+      "Lector de discos",
+      "Hasta 120 fps",
+      "Incluye DualSense"
+    ]
+  },
+  {
+    "id": "ps5-slim-digital",
+    "nombre": "PlayStation 5 Slim Digital",
+    "categoria": "playstation",
+    "subtitulo": "Todo digital, sin lector de discos.",
+    "descripcion": "Edición digital de la PS5 Slim. Descarga tus juegos desde la tienda en línea. Incluye control DualSense.",
+    "img": "img/ps5-control-consola.jpg",
+    "colores": [
+      {
+        "nombre": "Blanco",
+        "hex": "#f2f2f0",
+        "img": "img/ps5-control-consola.jpg"
+      }
+    ],
+    "capacidades": [
+      {
+        "nombre": "1 TB",
+        "precio": 2499000,
+        "precioAntes": 2699000
+      }
+    ],
+    "precio": 2499000,
+    "precioAntes": 2699000,
+    "disponible": true,
+    "nuevo": false,
+    "masVendido": false,
+    "oferta": true,
+    "enInicio": false,
+    "precioEjemplo": true,
+    "specs": [
+      "1 TB SSD",
+      "Edición digital",
+      "Hasta 120 fps",
+      "Incluye DualSense"
+    ]
+  },
+  {
+    "id": "ps5-pro",
+    "nombre": "PlayStation 5 Pro",
+    "categoria": "playstation",
+    "subtitulo": "Más potencia gráfica para jugar en 4K.",
+    "descripcion": "La PS5 más potente, con GPU mejorada, escalado con IA y 2 TB de almacenamiento. Lector de discos opcional.",
+    "img": "img/ps5-pro-control.jpg",
+    "colores": [
+      {
+        "nombre": "Blanco",
+        "hex": "#f2f2f0",
+        "img": "img/ps5-pro-control.jpg"
+      }
+    ],
+    "capacidades": [
+      {
+        "nombre": "2 TB",
+        "precio": 4299000
+      }
+    ],
+    "precio": 4299000,
+    "precioAntes": null,
+    "disponible": true,
+    "nuevo": true,
+    "masVendido": false,
+    "oferta": false,
+    "enInicio": true,
+    "precioEjemplo": true,
+    "specs": [
+      "2 TB SSD",
+      "GPU mejorada",
+      "Wi-Fi 7",
+      "Juegos en 4K"
+    ]
+  },
+  {
+    "id": "dualsense",
+    "nombre": "Control DualSense",
+    "categoria": "playstation",
+    "subtitulo": "Siente cada juego en tus manos.",
+    "descripcion": "Control inalámbrico con respuesta háptica, gatillos adaptativos y micrófono integrado.",
+    "img": "img/dualsense.jpg",
+    "colores": [
+      {
+        "nombre": "Blanco",
+        "hex": "#f2f2f0",
+        "img": "img/dualsense.jpg"
+      },
+      {
+        "nombre": "Negro medianoche",
+        "hex": "#26262b"
+      },
+      {
+        "nombre": "Rojo cósmico",
+        "hex": "#a3202f"
+      },
+      {
+        "nombre": "Galáctico violeta",
+        "hex": "#5b3fa0"
+      }
+    ],
+    "capacidades": [],
+    "precio": 349000,
+    "precioAntes": null,
+    "disponible": true,
+    "nuevo": false,
+    "masVendido": true,
+    "oferta": false,
+    "enInicio": false,
+    "precioEjemplo": true,
+    "specs": [
+      "Respuesta háptica",
+      "Gatillos adaptativos",
+      "USB-C",
+      "Micrófono integrado"
+    ]
+  },
+  {
+    "id": "dualsense-edge",
+    "nombre": "Control DualSense Edge",
+    "categoria": "playstation",
+    "subtitulo": "El control profesional para competir.",
+    "descripcion": "Control con botones traseros, perfiles personalizables y palancas reemplazables. Incluye estuche.",
+    "img": "img/dualsense-edge.jpg",
+    "colores": [
+      {
+        "nombre": "Blanco y negro",
+        "hex": "#e9e9e7",
+        "img": "img/dualsense-edge.jpg"
+      }
+    ],
+    "capacidades": [],
+    "precio": 899000,
+    "precioAntes": 999000,
+    "disponible": true,
+    "nuevo": false,
+    "masVendido": false,
+    "oferta": true,
+    "enInicio": true,
+    "precioEjemplo": true,
+    "specs": [
+      "Botones traseros",
+      "Palancas reemplazables",
+      "Perfiles",
+      "Estuche incluido"
+    ]
+  },
+  {
+    "id": "audifonos-gamer",
+    "nombre": "Audífonos gamer inalámbricos",
+    "categoria": "playstation",
+    "subtitulo": "Audio 3D para escuchar cada paso.",
+    "descripcion": "Audífonos inalámbricos para consola y PC con audio 3D, micrófono con cancelación de ruido y 30 horas de batería.",
+    "img": "img/audifonos-gamer.jpg",
+    "colores": [
+      {
+        "nombre": "Blanco",
+        "hex": "#f2f2f0",
+        "img": "img/audifonos-gamer.jpg"
+      },
+      {
+        "nombre": "Negro",
+        "hex": "#26262b"
+      }
+    ],
+    "capacidades": [],
+    "precio": 459000,
+    "precioAntes": null,
+    "disponible": true,
+    "nuevo": true,
+    "masVendido": false,
+    "oferta": false,
+    "enInicio": false,
+    "precioEjemplo": true,
+    "specs": [
+      "Audio 3D",
+      "Micrófono con cancelación",
+      "30 h de batería",
+      "Inalámbricos"
+    ]
+  },
+  {
+    "id": "audifonos-over-ear",
+    "nombre": "Audífonos over-ear con cancelación",
+    "categoria": "accesorios",
+    "subtitulo": "Silencio total, sonido de estudio.",
+    "descripcion": "Audífonos de diadema con cancelación activa de ruido, modo ambiente y 20 horas de batería.",
+    "img": "img/audifonos-over-ear.jpg",
+    "colores": [
+      {
+        "nombre": "Plata rosado",
+        "hex": "#e3c9c9",
+        "img": "img/audifonos-over-ear.jpg"
+      },
+      {
+        "nombre": "Gris espacial",
+        "hex": "#5a5a60"
+      },
+      {
+        "nombre": "Azul cielo",
+        "hex": "#a9c1d9"
+      }
+    ],
+    "capacidades": [],
+    "precio": 2199000,
+    "precioAntes": null,
+    "disponible": true,
+    "nuevo": true,
+    "masVendido": false,
+    "oferta": false,
+    "enInicio": true,
+    "precioEjemplo": true,
+    "specs": [
+      "Cancelación activa",
+      "Audio espacial",
+      "20 h de batería",
+      "USB-C"
+    ]
+  },
+  {
+    "id": "audifonos-on-ear",
+    "nombre": "Audífonos inalámbricos on-ear",
+    "categoria": "accesorios",
+    "subtitulo": "Livianos para todo el día.",
+    "descripcion": "Audífonos plegables con Bluetooth 5.3, 40 horas de batería y carga rápida.",
+    "img": "img/audifonos-blancos.jpg",
+    "colores": [
+      {
+        "nombre": "Blanco",
+        "hex": "#f2f2f0",
+        "img": "img/audifonos-blancos.jpg"
+      },
+      {
+        "nombre": "Negro",
+        "hex": "#26262b"
+      },
+      {
+        "nombre": "Azul",
+        "hex": "#4a6fb5"
+      }
+    ],
+    "capacidades": [],
+    "precio": 279000,
+    "precioAntes": 329000,
+    "disponible": true,
+    "nuevo": false,
+    "masVendido": true,
+    "oferta": true,
+    "enInicio": false,
+    "precioEjemplo": true,
+    "specs": [
+      "Bluetooth 5.3",
+      "40 h de batería",
+      "Plegables",
+      "Carga rápida"
+    ]
+  },
+  {
+    "id": "cargador-20w",
+    "nombre": "Cargador USB-C de 20 W",
+    "categoria": "accesorios",
+    "subtitulo": "Carga rápida para iPhone.",
+    "descripcion": "Adaptador de pared USB-C de 20 W. Carga un iPhone al 50 % en unos 30 minutos.",
+    "img": "img/cargador-cable.jpg",
+    "colores": [
+      {
+        "nombre": "Blanco",
+        "hex": "#f2f2f0",
+        "img": "img/cargador-cable.jpg"
+      }
+    ],
+    "capacidades": [],
+    "precio": 99000,
+    "precioAntes": null,
+    "disponible": true,
+    "nuevo": false,
+    "masVendido": true,
+    "oferta": false,
+    "enInicio": true,
+    "precioEjemplo": true,
+    "specs": [
+      "20 W",
+      "USB-C",
+      "Carga rápida",
+      "Enchufe tipo A"
+    ]
+  },
+  {
+    "id": "cable-usb-c",
+    "nombre": "Cable USB-C trenzado",
+    "categoria": "accesorios",
+    "subtitulo": "Resistente y para todo.",
+    "descripcion": "Cable USB-C a USB-C trenzado, compatible con iPhone 15 en adelante, iPad y Mac.",
+    "img": "img/cable-usb-c.jpg",
+    "colores": [
+      {
+        "nombre": "Negro",
+        "hex": "#26262b",
+        "img": "img/cable-usb-c.jpg"
+      },
+      {
+        "nombre": "Blanco",
+        "hex": "#f2f2f0"
+      }
+    ],
+    "capacidades": [
+      {
+        "nombre": "1 m",
+        "precio": 79000
+      },
+      {
+        "nombre": "2 m",
+        "precio": 109000
+      }
+    ],
+    "precio": 79000,
+    "precioAntes": null,
+    "disponible": true,
+    "nuevo": true,
+    "masVendido": false,
+    "oferta": false,
+    "enInicio": false,
+    "precioEjemplo": true,
+    "specs": [
+      "Trenzado",
+      "Hasta 60 W",
+      "USB-C a USB-C",
+      "1 o 2 metros"
+    ]
+  },
+  {
+    "id": "power-bank",
+    "nombre": "Batería portátil magnética 10.000 mAh",
+    "categoria": "accesorios",
+    "subtitulo": "Carga sin cables, donde estés.",
+    "descripcion": "Batería externa magnética que se pega al iPhone. Carga inalámbrica de 15 W y puerto USB-C.",
+    "img": "img/power-bank.jpg",
+    "colores": [
+      {
+        "nombre": "Negro",
+        "hex": "#26262b",
+        "img": "img/power-bank.jpg"
+      },
+      {
+        "nombre": "Blanco",
+        "hex": "#f2f2f0"
+      }
+    ],
+    "capacidades": [],
+    "precio": 189000,
+    "precioAntes": null,
+    "disponible": false,
+    "nuevo": false,
+    "masVendido": false,
+    "oferta": false,
+    "enInicio": false,
+    "precioEjemplo": true,
+    "specs": [
+      "10.000 mAh",
+      "Magnética",
+      "15 W inalámbrica",
+      "USB-C"
+    ]
+  },
+  {
+    "id": "funda-magnetica",
+    "nombre": "Funda magnética para iPhone",
+    "categoria": "accesorios",
+    "subtitulo": "Protección delgada con imanes.",
+    "descripcion": "Funda de silicona con imanes para cargadores y baterías magnéticas. Disponible para iPhone 16 y 17.",
+    "img": "img/fundas-colores.jpg",
+    "colores": [
+      {
+        "nombre": "Negro",
+        "hex": "#26262b",
+        "img": "img/fundas-colores.jpg"
+      },
+      {
+        "nombre": "Azul",
+        "hex": "#3f5a8a",
+        "img": "img/funda-azul.jpg"
+      },
+      {
+        "nombre": "Arena",
+        "hex": "#d8c9ae"
+      }
+    ],
+    "capacidades": [],
+    "precio": 129000,
+    "precioAntes": null,
+    "disponible": true,
+    "nuevo": false,
+    "masVendido": false,
+    "oferta": false,
+    "enInicio": true,
+    "precioEjemplo": true,
+    "specs": [
+      "Silicona",
+      "Magnética",
+      "Interior suave",
+      "iPhone 16 y 17"
+    ]
+  },
+  {
+    "id": "watch-series-11",
+    "nombre": "Watch Series 11",
+    "categoria": "smartwatch",
+    "subtitulo": "Tu salud y tus notificaciones, en la muñeca.",
+    "descripcion": "Reloj inteligente con pantalla siempre activa, sensores de salud, GPS y resistencia al agua. Compatible con iPhone.",
+    "img": "img/reloj-rojo.jpg",
+    "colores": [
+      {
+        "nombre": "Rosado",
+        "hex": "#f0c6cf",
+        "img": "img/reloj-rojo.jpg"
+      },
+      {
+        "nombre": "Medianoche",
+        "hex": "#26262b"
+      },
+      {
+        "nombre": "Plata",
+        "hex": "#d9d9d6"
+      }
+    ],
+    "capacidades": [
+      {
+        "nombre": "42 mm",
+        "precio": 1999000
+      },
+      {
+        "nombre": "46 mm",
+        "precio": 2199000
+      }
+    ],
+    "precio": 1999000,
+    "precioAntes": null,
+    "disponible": true,
+    "nuevo": true,
+    "masVendido": true,
+    "oferta": false,
+    "enInicio": true,
+    "precioEjemplo": true,
+    "specs": [
+      "GPS",
+      "Ritmo cardiaco y oxígeno",
+      "Resistente al agua 50 m",
+      "Compatible con iPhone"
+    ]
+  },
+  {
+    "id": "watch-ultra-3",
+    "nombre": "Watch Ultra 3",
+    "categoria": "smartwatch",
+    "subtitulo": "Hecho para la montaña y el mar.",
+    "descripcion": "Caja de titanio de 49 mm, GPS de doble frecuencia, batería de hasta 42 horas y conexión satelital de emergencia.",
+    "img": "img/reloj-negro.jpg",
+    "colores": [
+      {
+        "nombre": "Titanio negro",
+        "hex": "#2b2b2e",
+        "img": "img/reloj-negro.jpg"
+      },
+      {
+        "nombre": "Titanio natural",
+        "hex": "#cfc8bd"
+      }
+    ],
+    "capacidades": [
+      {
+        "nombre": "49 mm",
+        "precio": 4199000
+      }
+    ],
+    "precio": 4199000,
+    "precioAntes": null,
+    "disponible": true,
+    "nuevo": true,
+    "masVendido": false,
+    "oferta": false,
+    "enInicio": true,
+    "precioEjemplo": true,
+    "specs": [
+      "Titanio",
+      "GPS doble frecuencia",
+      "Hasta 42 h",
+      "Resistente al agua 100 m"
+    ]
+  },
+  {
+    "id": "watch-se-3",
+    "nombre": "Watch SE 3",
+    "categoria": "smartwatch",
+    "subtitulo": "Lo esencial para empezar.",
+    "descripcion": "Reloj inteligente con detección de caídas, seguimiento de actividad y notificaciones. Compatible con iPhone.",
+    "img": "img/reloj-deporte.jpg",
+    "colores": [
+      {
+        "nombre": "Plata",
+        "hex": "#d9d9d6",
+        "img": "img/reloj-deporte.jpg"
+      },
+      {
+        "nombre": "Medianoche",
+        "hex": "#26262b"
+      }
+    ],
+    "capacidades": [
+      {
+        "nombre": "40 mm",
+        "precio": 1299000,
+        "precioAntes": 1449000
+      },
+      {
+        "nombre": "44 mm",
+        "precio": 1449000,
+        "precioAntes": 1599000
+      }
+    ],
+    "precio": 1299000,
+    "precioAntes": 1449000,
+    "disponible": true,
+    "nuevo": false,
+    "masVendido": false,
+    "oferta": true,
+    "enInicio": true,
+    "precioEjemplo": true,
+    "specs": [
+      "Detección de caídas",
+      "Actividad y sueño",
+      "Resistente al agua 50 m",
+      "Compatible con iPhone"
+    ]
+  },
+  {
+    "id": "banda-fitness",
+    "nombre": "Banda inteligente fitness",
+    "categoria": "smartwatch",
+    "subtitulo": "Liviana, con 14 días de batería.",
+    "descripcion": "Banda de actividad con pantalla AMOLED, ritmo cardiaco, sueño y más de 100 modos deportivos. Compatible con iPhone y Android.",
+    "img": "img/banda-fitness.jpg",
+    "colores": [
+      {
+        "nombre": "Negro",
+        "hex": "#26262b",
+        "img": "img/banda-fitness.jpg"
+      },
+      {
+        "nombre": "Azul",
+        "hex": "#4a6fb5"
+      }
+    ],
+    "capacidades": [],
+    "precio": 249000,
+    "precioAntes": null,
+    "disponible": true,
+    "nuevo": true,
+    "masVendido": false,
+    "oferta": false,
+    "enInicio": false,
+    "precioEjemplo": true,
+    "specs": [
+      "14 días de batería",
+      "AMOLED",
+      "100+ deportes",
+      "iPhone y Android"
+    ]
+  }
+]
