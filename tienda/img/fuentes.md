@@ -31,3 +31,8 @@ Son fotos de referencia: el modelo de la foto no siempre es el modelo exacto que
 | `reloj-deporte.jpg` | Watch SE 3 | https://www.pexels.com/photo/person-wearing-white-silicone-strap-black-smartwatch-267394/ | Pixabay | Pexels |
 | `banda-fitness.jpg` | Banda inteligente fitness | https://www.pexels.com/photo/a-person-wearing-black-smart-watch-9130511/ | Dario Fernandez Ruz | Pexels |
 | `reloj-muneca.jpg` | Foto grande de la sección Smartwatch | https://www.pexels.com/photo/close-up-photo-of-a-person-wearing-an-apple-watch-4379288/ | Karola G. | Pexels |
+| `variantes/iphone-air-azul-cielo.jpg`, `variantes/iphone-air-dorado-claro.jpg`, `variantes/iphone-air-blanco-nube.jpg` | iPhone Air, colores claros (la foto del iPhone Air muestra el frente negro y no deja ver el color; se recoloreó esta foto de un iPhone plateado de espaldas) | https://www.pexels.com/photo/silver-iphone-on-black-surface-10885666/ | Akaaljotsingh Anandpuria | Pexels |
+
+## Variantes de color (`variantes/`)
+
+Agregadas el 2026-11-17. Una foto por color de cada producto: es la foto del producto con solo el dispositivo recoloreado (mismo encuadre y mismo fondo), salvo las del iPhone Air de la fila anterior. El color que ya tenía foto propia la conserva. Son recoloreados de referencia, no fotos reales de cada color.

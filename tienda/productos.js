@@ -16,11 +16,13 @@ window.PRODUCTOS_RESPALDO = [
       },
       {
         "nombre": "Azul profundo",
-        "hex": "#2f3d55"
+        "hex": "#2f3d55",
+        "img": "img/variantes/iphone-17-pro-max-azul-profundo.jpg"
       },
       {
         "nombre": "Naranja cósmico",
-        "hex": "#d9773b"
+        "hex": "#d9773b",
+        "img": "img/variantes/iphone-17-pro-max-naranja-cosmico.jpg"
       }
     ],
     "capacidades": [
@@ -67,11 +69,13 @@ window.PRODUCTOS_RESPALDO = [
       },
       {
         "nombre": "Azul profundo",
-        "hex": "#2f3d55"
+        "hex": "#2f3d55",
+        "img": "img/variantes/iphone-17-pro-azul-profundo.jpg"
       },
       {
         "nombre": "Naranja cósmico",
-        "hex": "#d9773b"
+        "hex": "#d9773b",
+        "img": "img/variantes/iphone-17-pro-naranja-cosmico.jpg"
       }
     ],
     "capacidades": [
@@ -118,15 +122,18 @@ window.PRODUCTOS_RESPALDO = [
       },
       {
         "nombre": "Azul cielo",
-        "hex": "#b9cfe4"
+        "hex": "#b9cfe4",
+        "img": "img/variantes/iphone-air-azul-cielo.jpg"
       },
       {
         "nombre": "Dorado claro",
-        "hex": "#e8dcc2"
+        "hex": "#e8dcc2",
+        "img": "img/variantes/iphone-air-dorado-claro.jpg"
       },
       {
         "nombre": "Blanco nube",
-        "hex": "#f1f1ee"
+        "hex": "#f1f1ee",
+        "img": "img/variantes/iphone-air-blanco-nube.jpg"
       }
     ],
     "capacidades": [
@@ -169,15 +176,18 @@ window.PRODUCTOS_RESPALDO = [
       },
       {
         "nombre": "Negro",
-        "hex": "#232325"
+        "hex": "#232325",
+        "img": "img/variantes/iphone-17-negro.jpg"
       },
       {
         "nombre": "Lavanda",
-        "hex": "#c9bfe0"
+        "hex": "#c9bfe0",
+        "img": "img/variantes/iphone-17-lavanda.jpg"
       },
       {
         "nombre": "Salvia",
-        "hex": "#b7c4a8"
+        "hex": "#b7c4a8",
+        "img": "img/variantes/iphone-17-salvia.jpg"
       }
     ],
     "capacidades": [
@@ -222,15 +232,18 @@ window.PRODUCTOS_RESPALDO = [
       },
       {
         "nombre": "Negro",
-        "hex": "#232325"
+        "hex": "#232325",
+        "img": "img/variantes/iphone-16-negro.jpg"
       },
       {
         "nombre": "Blanco",
-        "hex": "#f1f1ee"
+        "hex": "#f1f1ee",
+        "img": "img/variantes/iphone-16-blanco.jpg"
       },
       {
         "nombre": "Rosado",
-        "hex": "#f0c6cf"
+        "hex": "#f0c6cf",
+        "img": "img/variantes/iphone-16-rosado.jpg"
       }
     ],
     "capacidades": [
@@ -275,7 +288,8 @@ window.PRODUCTOS_RESPALDO = [
       },
       {
         "nombre": "Negro",
-        "hex": "#232325"
+        "hex": "#232325",
+        "img": "img/variantes/iphone-16e-negro.jpg"
       }
     ],
     "capacidades": [
@@ -425,15 +439,18 @@ window.PRODUCTOS_RESPALDO = [
       },
       {
         "nombre": "Negro medianoche",
-        "hex": "#26262b"
+        "hex": "#26262b",
+        "img": "img/variantes/dualsense-negro-medianoche.jpg"
       },
       {
         "nombre": "Rojo cósmico",
-        "hex": "#a3202f"
+        "hex": "#a3202f",
+        "img": "img/variantes/dualsense-rojo-cosmico.jpg"
       },
       {
         "nombre": "Galáctico violeta",
-        "hex": "#5b3fa0"
+        "hex": "#5b3fa0",
+        "img": "img/variantes/dualsense-galactico-violeta.jpg"
       }
     ],
     "capacidades": [],
@@ -497,7 +514,8 @@ window.PRODUCTOS_RESPALDO = [
       },
       {
         "nombre": "Negro",
-        "hex": "#26262b"
+        "hex": "#26262b",
+        "img": "img/variantes/audifonos-gamer-negro.jpg"
       }
     ],
     "capacidades": [],
@@ -531,11 +549,13 @@ window.PRODUCTOS_RESPALDO = [
       },
       {
         "nombre": "Gris espacial",
-        "hex": "#5a5a60"
+        "hex": "#5a5a60",
+        "img": "img/variantes/audifonos-over-ear-gris-espacial.jpg"
       },
       {
         "nombre": "Azul cielo",
-        "hex": "#a9c1d9"
+        "hex": "#a9c1d9",
+        "img": "img/variantes/audifonos-over-ear-azul-cielo.jpg"
       }
     ],
     "capacidades": [],
@@ -569,11 +589,13 @@ window.PRODUCTOS_RESPALDO = [
       },
       {
         "nombre": "Negro",
-        "hex": "#26262b"
+        "hex": "#26262b",
+        "img": "img/variantes/audifonos-on-ear-negro.jpg"
       },
       {
         "nombre": "Azul",
-        "hex": "#4a6fb5"
+        "hex": "#4a6fb5",
+        "img": "img/variantes/audifonos-on-ear-azul.jpg"
       }
     ],
     "capacidades": [],
@@ -637,7 +659,8 @@ window.PRODUCTOS_RESPALDO = [
       },
       {
         "nombre": "Blanco",
-        "hex": "#f2f2f0"
+        "hex": "#f2f2f0",
+        "img": "img/variantes/cable-usb-c-blanco.jpg"
       }
     ],
     "capacidades": [
@@ -680,7 +703,8 @@ window.PRODUCTOS_RESPALDO = [
       },
       {
         "nombre": "Blanco",
-        "hex": "#f2f2f0"
+        "hex": "#f2f2f0",
+        "img": "img/variantes/power-bank-blanco.jpg"
       }
     ],
     "capacidades": [],
@@ -719,7 +743,8 @@ window.PRODUCTOS_RESPALDO = [
       },
       {
         "nombre": "Arena",
-        "hex": "#d8c9ae"
+        "hex": "#d8c9ae",
+        "img": "img/variantes/funda-magnetica-arena.jpg"
       }
     ],
     "capacidades": [],
@@ -753,11 +778,13 @@ window.PRODUCTOS_RESPALDO = [
       },
       {
         "nombre": "Medianoche",
-        "hex": "#26262b"
+        "hex": "#26262b",
+        "img": "img/variantes/watch-series-11-medianoche.jpg"
       },
       {
         "nombre": "Plata",
-        "hex": "#d9d9d6"
+        "hex": "#d9d9d6",
+        "img": "img/variantes/watch-series-11-plata.jpg"
       }
     ],
     "capacidades": [
@@ -800,7 +827,8 @@ window.PRODUCTOS_RESPALDO = [
       },
       {
         "nombre": "Titanio natural",
-        "hex": "#cfc8bd"
+        "hex": "#cfc8bd",
+        "img": "img/variantes/watch-ultra-3-titanio-natural.jpg"
       }
     ],
     "capacidades": [
@@ -839,7 +867,8 @@ window.PRODUCTOS_RESPALDO = [
       },
       {
         "nombre": "Medianoche",
-        "hex": "#26262b"
+        "hex": "#26262b",
+        "img": "img/variantes/watch-se-3-medianoche.jpg"
       }
     ],
     "capacidades": [
@@ -884,7 +913,8 @@ window.PRODUCTOS_RESPALDO = [
       },
       {
         "nombre": "Azul",
-        "hex": "#4a6fb5"
+        "hex": "#4a6fb5",
+        "img": "img/variantes/banda-fitness-azul.jpg"
       }
     ],
     "capacidades": [],
