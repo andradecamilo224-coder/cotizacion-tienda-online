@@ -17,12 +17,12 @@ window.PRODUCTOS_RESPALDO = [
       {
         "nombre": "Azul profundo",
         "hex": "#2f3d55",
-        "img": "img/variantes/iphone-17-pro-max-azul-profundo.jpg"
+        "img": "img/colores/iphone-17-pro-max-azul-profundo.jpg"
       },
       {
         "nombre": "Naranja cósmico",
         "hex": "#d9773b",
-        "img": "img/variantes/iphone-17-pro-max-naranja-cosmico.jpg"
+        "img": "img/colores/iphone-17-pro-max-naranja-cosmico.jpg"
       }
     ],
     "capacidades": [
@@ -70,12 +70,12 @@ window.PRODUCTOS_RESPALDO = [
       {
         "nombre": "Azul profundo",
         "hex": "#2f3d55",
-        "img": "img/variantes/iphone-17-pro-azul-profundo.jpg"
+        "img": "img/colores/iphone-17-pro-azul-profundo.jpg"
       },
       {
         "nombre": "Naranja cósmico",
         "hex": "#d9773b",
-        "img": "img/variantes/iphone-17-pro-naranja-cosmico.jpg"
+        "img": "img/colores/iphone-17-pro-naranja-cosmico.jpg"
       }
     ],
     "capacidades": [
@@ -123,17 +123,17 @@ window.PRODUCTOS_RESPALDO = [
       {
         "nombre": "Azul cielo",
         "hex": "#b9cfe4",
-        "img": "img/variantes/iphone-air-azul-cielo.jpg"
+        "img": "img/colores/iphone-air-azul-cielo.jpg"
       },
       {
         "nombre": "Dorado claro",
         "hex": "#e8dcc2",
-        "img": "img/variantes/iphone-air-dorado-claro.jpg"
+        "img": "img/colores/iphone-air-dorado-claro.jpg"
       },
       {
         "nombre": "Blanco nube",
         "hex": "#f1f1ee",
-        "img": "img/variantes/iphone-air-blanco-nube.jpg"
+        "img": "img/colores/iphone-air-blanco-nube.jpg"
       }
     ],
     "capacidades": [
@@ -177,17 +177,17 @@ window.PRODUCTOS_RESPALDO = [
       {
         "nombre": "Negro",
         "hex": "#232325",
-        "img": "img/variantes/iphone-17-negro.jpg"
+        "img": "img/colores/iphone-17-negro.jpg"
       },
       {
         "nombre": "Lavanda",
         "hex": "#c9bfe0",
-        "img": "img/variantes/iphone-17-lavanda.jpg"
+        "img": "img/colores/iphone-17-lavanda.jpg"
       },
       {
         "nombre": "Salvia",
         "hex": "#b7c4a8",
-        "img": "img/variantes/iphone-17-salvia.jpg"
+        "img": "img/colores/iphone-17-salvia.jpg"
       }
     ],
     "capacidades": [
@@ -233,17 +233,17 @@ window.PRODUCTOS_RESPALDO = [
       {
         "nombre": "Negro",
         "hex": "#232325",
-        "img": "img/variantes/iphone-16-negro.jpg"
+        "img": "img/colores/iphone-16-negro.jpg"
       },
       {
         "nombre": "Blanco",
         "hex": "#f1f1ee",
-        "img": "img/variantes/iphone-16-blanco.jpg"
+        "img": "img/colores/iphone-16-blanco.jpg"
       },
       {
         "nombre": "Rosado",
         "hex": "#f0c6cf",
-        "img": "img/variantes/iphone-16-rosado.jpg"
+        "img": "img/colores/iphone-16-rosado.jpg"
       }
     ],
     "capacidades": [
@@ -289,7 +289,7 @@ window.PRODUCTOS_RESPALDO = [
       {
         "nombre": "Negro",
         "hex": "#232325",
-        "img": "img/variantes/iphone-16e-negro.jpg"
+        "img": "img/colores/iphone-16e-negro.jpg"
       }
     ],
     "capacidades": [
@@ -440,17 +440,17 @@ window.PRODUCTOS_RESPALDO = [
       {
         "nombre": "Negro medianoche",
         "hex": "#26262b",
-        "img": "img/variantes/dualsense-negro-medianoche.jpg"
+        "img": "img/colores/dualsense-negro-medianoche.jpg"
       },
       {
         "nombre": "Rojo cósmico",
         "hex": "#a3202f",
-        "img": "img/variantes/dualsense-rojo-cosmico.jpg"
+        "img": "img/colores/dualsense-rojo-cosmico.jpg"
       },
       {
         "nombre": "Galáctico violeta",
         "hex": "#5b3fa0",
-        "img": "img/variantes/dualsense-galactico-violeta.jpg"
+        "img": "img/dualsense.jpg"
       }
     ],
     "capacidades": [],
@@ -515,7 +515,7 @@ window.PRODUCTOS_RESPALDO = [
       {
         "nombre": "Negro",
         "hex": "#26262b",
-        "img": "img/variantes/audifonos-gamer-negro.jpg"
+        "img": "img/colores/audifonos-gamer-negro.jpg"
       }
     ],
     "capacidades": [],
@@ -550,12 +550,12 @@ window.PRODUCTOS_RESPALDO = [
       {
         "nombre": "Gris espacial",
         "hex": "#5a5a60",
-        "img": "img/variantes/audifonos-over-ear-gris-espacial.jpg"
+        "img": "img/colores/audifonos-over-ear-gris-espacial.jpg"
       },
       {
         "nombre": "Azul cielo",
         "hex": "#a9c1d9",
-        "img": "img/variantes/audifonos-over-ear-azul-cielo.jpg"
+        "img": "img/colores/audifonos-over-ear-azul-cielo.jpg"
       }
     ],
     "capacidades": [],
@@ -590,12 +590,12 @@ window.PRODUCTOS_RESPALDO = [
       {
         "nombre": "Negro",
         "hex": "#26262b",
-        "img": "img/variantes/audifonos-on-ear-negro.jpg"
+        "img": "img/colores/audifonos-on-ear-negro.jpg"
       },
       {
         "nombre": "Azul",
         "hex": "#4a6fb5",
-        "img": "img/variantes/audifonos-on-ear-azul.jpg"
+        "img": "img/colores/audifonos-on-ear-azul.jpg"
       }
     ],
     "capacidades": [],
@@ -660,7 +660,7 @@ window.PRODUCTOS_RESPALDO = [
       {
         "nombre": "Blanco",
         "hex": "#f2f2f0",
-        "img": "img/variantes/cable-usb-c-blanco.jpg"
+        "img": "img/colores/cable-usb-c-blanco.jpg"
       }
     ],
     "capacidades": [
@@ -704,7 +704,7 @@ window.PRODUCTOS_RESPALDO = [
       {
         "nombre": "Blanco",
         "hex": "#f2f2f0",
-        "img": "img/variantes/power-bank-blanco.jpg"
+        "img": "img/colores/power-bank-blanco.jpg"
       }
     ],
     "capacidades": [],
@@ -744,7 +744,7 @@ window.PRODUCTOS_RESPALDO = [
       {
         "nombre": "Arena",
         "hex": "#d8c9ae",
-        "img": "img/variantes/funda-magnetica-arena.jpg"
+        "img": "img/colores/funda-magnetica-arena.jpg"
       }
     ],
     "capacidades": [],
@@ -779,12 +779,12 @@ window.PRODUCTOS_RESPALDO = [
       {
         "nombre": "Medianoche",
         "hex": "#26262b",
-        "img": "img/variantes/watch-series-11-medianoche.jpg"
+        "img": "img/colores/watch-series-11-medianoche.jpg"
       },
       {
         "nombre": "Plata",
         "hex": "#d9d9d6",
-        "img": "img/variantes/watch-series-11-plata.jpg"
+        "img": "img/colores/watch-series-11-plata.jpg"
       }
     ],
     "capacidades": [
@@ -828,7 +828,7 @@ window.PRODUCTOS_RESPALDO = [
       {
         "nombre": "Titanio natural",
         "hex": "#cfc8bd",
-        "img": "img/variantes/watch-ultra-3-titanio-natural.jpg"
+        "img": "img/colores/watch-ultra-3-titanio-natural.jpg"
       }
     ],
     "capacidades": [
@@ -868,7 +868,7 @@ window.PRODUCTOS_RESPALDO = [
       {
         "nombre": "Medianoche",
         "hex": "#26262b",
-        "img": "img/variantes/watch-se-3-medianoche.jpg"
+        "img": "img/colores/watch-se-3-medianoche.jpg"
       }
     ],
     "capacidades": [
@@ -914,7 +914,7 @@ window.PRODUCTOS_RESPALDO = [
       {
         "nombre": "Azul",
         "hex": "#4a6fb5",
-        "img": "img/variantes/banda-fitness-azul.jpg"
+        "img": "img/colores/banda-fitness-azul.jpg"
       }
     ],
     "capacidades": [],
